@@ -89,3 +89,43 @@ body {
         font-size: 28px;
     }
 }
+*{
+margin: 0;
+Padding: 0;
+box-sizing: border-box;
+font-family: ‘poppins’, sans-serif;
+
+.home{
+min-height: 100vh;
+width: 100%
+background-color: #000;
+background-image: url(https://pin.it/2oHftmgzE);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 80%
+color: #fff;
+padding: 0 8%;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 0;
+}
+.logo{
+width: 180px;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 10px 30px;
+}
+nav ul li a{
+color: #fff;
+text-decoration: none;
+}
+
+.home h1{
+font-size: 55px;
+margin-top: 12%
+} 
