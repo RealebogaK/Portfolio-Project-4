@@ -1,110 +1,12 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    background-color: #01502A;
-}
-
-}
-
-#jointhesearchButton {
-    position: left;
-    margin-right: 150px;
-}
-
-.header_text {
-    font-family: 'Brush Script';
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.btn {
-    background-color: white;
-    color: pink;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-    border-radius: 15px;
-    transition: background-color 0.3s ease;
-}
-
-.gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media only screen and (max-width: 320px) and (max-height: 680px) {
-    body {
-        height: 100vh;
-    }
-
-    .header_text {
-        font-size: 30px;
-    }
-
-    img {
-        height: 80vh;
-    }
-
-    .btn {
-        padding: 12px 24px;
-        font-size: 18px;
-    }
-}
-
-@media only screen and (max-width: 414px) and (max-height: 763px) {
-    body {
-        height: 90vh;
-    }
-
-    .header_text {
-        font-size: 28px;
-    }
-
-    img {
-        height: 60vh;
-    }
-
-    .btn {
-        padding: 20px 40px;
-        font-size: 28px;
-    }
-}
-*{
-margin: 0;
-Padding: 0;
-box-sizing: border-box;
-font-family: ‘poppins’, sans-serif;
-
 .home{
 min-height: 100vh;
 width: 100%
-background-color: #000;
-background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtsOWx2NXd5ZWlvdjF2dDRldnF6Nmo0a251d3Q2Z29lZzd2NmNxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AGzrIm03v0zQrIVI52/giphy.gif
-);
+background-color: yellow;
+background-image: url (https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtsOWx2NXd5ZWlvdjF2dDRldnF6Nmo0a251d3Q2Z29lZzd2NmNxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AGzrIm03v0zQrIVI52/giphy.gif);
 background-position: center;
 background-repeat: no-repeat;
 background-size: 80%
-color: #fff;
+color: blue;
 padding: 0 8%;
 }
 nav{
@@ -129,4 +31,4 @@ text-decoration: none;
 .home h1{
 font-size: 55px;
 margin-top: 12%
-} 
+}
