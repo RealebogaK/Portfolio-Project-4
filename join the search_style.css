@@ -1,38 +1,8 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ff9933;
-}
-
-.header_text {
-    font-family: 'Serif';
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-
-.gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*{
-margin: 0;
-Padding: 0;
-box-sizing: border-box;
-font-family: ‘poppins’, sans-serif;
-
 .home{
 min-height: 100vh;
 width: 100%
-background-color: #000;
-background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtsOWx2NXd5ZWlvdjF2dDRldnF6Nmo0a251d3Q2Z29lZzd2NmNxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AGzrIm03v0zQrIVI52/giphy.gif
-);
+background-color: black;
+background-image: url (https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtsOWx2NXd5ZWlvdjF2dDRldnF6Nmo0a251d3Q2Z29lZzd2NmNxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AGzrIm03v0zQrIVI52/giphy.gif);
 background-position: center;
 background-repeat: no-repeat;
 background-size: 80%
